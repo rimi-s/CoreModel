@@ -45,7 +45,7 @@
                 <artifactId>tomcat-maven-plugin</artifactId>
                 <version>1.1</version>
                 <configuration>
-                  <port>8081</port> <!-- Change the port to 8081 or any available port -->
+                  <port>8081</port> 
               </configuration>
             </plugin>
 
