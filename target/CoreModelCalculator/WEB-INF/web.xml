@@ -8,12 +8,11 @@
 
     <servlet>
         <servlet-name>CalculatorServlet</servlet-name>
-        <servlet-class>com.example.CalculatorServlet</servlet-class>
+        <servlet-class>my_package_calc.CalculatorServlet</servlet-class>
     </servlet>
     
     <servlet-mapping>
         <servlet-name>CalculatorServlet</servlet-name>
         <url-pattern>/calculate</url-pattern>
     </servlet-mapping>
-    
 </web-app>
