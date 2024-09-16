@@ -19,7 +19,7 @@ public class CalculatorServlet extends HttpServlet {
         double crossSectionArea = Double.parseDouble(request.getParameter("crossSection"));
         double windowArea = Double.parseDouble(request.getParameter("windowArea"));
 
-        // Sample calculations (replace these with actual logic)
+        // Sample calculations 
         double coreFactor = coreVolume * magneticLength;
         double effectiveLength = magneticLength * crossSectionArea;
         double effectiveArea = coreVolume / magneticLength;
